@@ -1,0 +1,43 @@
+body {
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 50px;
+}
+
+.order-container {
+    background: white;
+    padding: 50px;
+    margin: auto;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.checkmark {
+    font-size: 80px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}

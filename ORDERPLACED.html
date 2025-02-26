@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Placed | E-Commerce Website</title>
+    <link rel="stylesheet" href="orderPlaced.css">
+    <script>
+        // Redirect to home page after 5 seconds
+        setTimeout(() => {
+            window.location.href = "index.html";
+        }, 5000);
+    </script>
+</head>
+<body>
+
+    <div class="order-container">
+        <div class="checkmark">✔</div>
+        <h1>Order Placed Successfully! 🎉</h1>
+        <p>Thank you for your purchase. You will receive a confirmation email shortly.</p>
+        <p>Redirecting to homepage in <span id="countdown">5</span> seconds...</p>
+        <a href="index.html" class="btn">Return to Home</a>
+    </div>
+
+    <script>
+        // Countdown timer for redirect
+        let countdown = 5;
+        setInterval(() => {
+            countdown--;
+            document.getElementById("countdown").innerText = countdown;
+        }, 1000);
+    </script>
+
+</body>
+</html>
